@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "typescript": "^5.4.2"
+  },
+  "name": "ct-custom",
+  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start":"ct-custom",
+    "docker:build": "docker build -f ./docker/Dockerfile . "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
